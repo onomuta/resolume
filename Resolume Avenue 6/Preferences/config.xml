@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Avenue>
+	<versionInfo name="Resolume Avenue" majorVersion="6" minorVersion="0" microVersion="7" revision="60578"/>
+	<Application name="Application" recentCompositions="/Users/onom/Documents/Resolume Avenue 6/Compositions/MBP Set.avc">
+		<Params storage="3" name="Settings">
+			<Param name="CurrentCompositionFile" default="/Applications/Resolume Avenue 6/default/example.avc" value="/Users/onom/Documents/Resolume Avenue 6/Compositions/MBP Set.avc"/>
+			<ParamRange storage="3" name="DefaultCompositionWidth" default="1920" value="1920"/>
+			<ParamRange storage="3" name="DefaultCompositionHeight" default="1080" value="1080"/>
+			<Param storage="3" name="DefaultDeckCount" default="3" value="3"/>
+			<Param storage="3" name="DefaultLayerCount" default="3" value="3"/>
+			<Param storage="3" name="DefaultColumnCount" default="8" value="8"/>
+			<Param name="RecordVideo" default="1" value="0"/>
+		</Params>
+	</Application>
+	<VideoEngine name="VideoEngine">
+		<Params name="Params">
+			<Param name="Show FPS" default="0" value="1"/>
+		</Params>
+	</VideoEngine>
+	<AudioEngine name="AudioEngine">
+		<AudioDeviceManager name="AudioDeviceManager">
+			<AudioDeviceManagerSettings name="AudioDeviceManagerSettings"/>
+			<AudioDeviceSettings>
+				<DEVICESETUP deviceType="CoreAudio" audioOutputDeviceName="Built-in Output" audioInputDeviceName="Built-in Microphone" audioDeviceRate="44100" audioDeviceBufferSize="800" audioDeviceInChans="0" audioDeviceOutChans="11"/>
+			</AudioDeviceSettings>
+		</AudioDeviceManager>
+		<AudioPluginManager name="AudioPluginManager">
+			<folders pluginFolder0="/Applications/Resolume Avenue 6/plugins/afx"/>
+		</AudioPluginManager>
+	</AudioEngine>
+</Avenue>
+

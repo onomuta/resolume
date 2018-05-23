@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MidiShortcutPreset name="LCXL" presetId="-1958943130">
+	<versionInfo name="Resolume Avenue" majorVersion="6" minorVersion="0" microVersion="7" revision="60578"/>
+	<ShortcutManager name="MIDIShortcutManagerShortcuts">
+		<Shortcut name="Shortcut" behaviour="1028">
+			<ShortcutPath name="InputPath" path="/composition/layers/13/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/13/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037942928" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.75590551181102361156"/>
+				<value first="On" second="0.023622047244094487861"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/10/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/10/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876272" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/10/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/10/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/10/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/10/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037947280" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/14/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/14/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/14/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/14/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037951376" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/13/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/13/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/13/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/13/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037951120" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/9/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/9/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/9/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/9/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037947024" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/12/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/12/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/12/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/12/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037950864" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/13/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/13/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075877040" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/11/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/11/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876528" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/8/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/8/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075875760" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/11/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/11/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/11/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/11/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037947536" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="2164745">
+			<ShortcutPath name="InputPath" path="/application/ui/clipsscrollhorizontal" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/application/ui/clipsscrollhorizontal" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="0"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075883184" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="1028">
+			<ShortcutPath name="InputPath" path="/composition/layers/12/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/12/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037942672" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.75590551181102361156"/>
+				<value first="On" second="0.023622047244094487861"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="1028">
+			<ShortcutPath name="InputPath" path="/composition/layers/9/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/9/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037938832" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.75590551181102361156"/>
+				<value first="On" second="0.023622047244094487861"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/13/video/effects/colorize/effect/color/palette/colors" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/13/video/effects/colorize/effect/color/palette/colors" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="1" optionIndex="0"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075860656" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/12/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/12/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876784" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="1028">
+			<ShortcutPath name="InputPath" path="/composition/layers/8/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/8/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037938576" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.75590551181102361156"/>
+				<value first="On" second="0.023622047244094487861"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/14/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/14/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075877296" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="1028">
+			<ShortcutPath name="InputPath" path="/composition/layers/14/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/14/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037943184" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.75590551181102361156"/>
+				<value first="On" second="0.023622047244094487861"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/9/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/9/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876016" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="2164745">
+			<ShortcutPath name="InputPath" path="/application/ui/clipsscrollhorizontal" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/application/ui/clipsscrollhorizontal" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075883440" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/15/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/15/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/15/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/15/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037951632" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="4">
+			<ShortcutPath name="InputPath" path="/composition/layers/8/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/8/select" translationType="1" allowedTranslationTypes="3"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/8/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/8/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037946768" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.48818897637795277689"/>
+				<value first="On" second="1"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="1028">
+			<ShortcutPath name="InputPath" path="/composition/layers/10/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/10/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037939088" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.75590551181102361156"/>
+				<value first="On" second="0.023622047244094487861"/>
+			</namedValues>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/master" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/master" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075877552" value="1" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="1028">
+			<ShortcutPath name="InputPath" path="/composition/layers/11/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/11/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="72057594037939344" value="0" numSteps="128"/>
+			<namedValues>
+				<value first="Off" second="0.75590551181102361156"/>
+				<value first="On" second="0.023622047244094487861"/>
+			</namedValues>
+		</Shortcut>
+	</ShortcutManager>
+</MidiShortcutPreset>
+

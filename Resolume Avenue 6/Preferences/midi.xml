@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<midiController enabled="1" midiClockMode="1" octaveNumForMiddleC="4" syncDeviceName="">
+	<versionInfo name="Resolume Avenue" majorVersion="6" minorVersion="0" microVersion="7" revision="60578"/>
+	<inputDevices>
+		<device name="IACドライバ バス1"/>
+		<device name="IAC Driver Virtual MIDI Port"/>
+		<device name="Launch Control XL"/>
+		<device name="nanoKONTROL2 SLIDER/KNOB"/>
+	</inputDevices>
+	<outputDevices>
+		<device name="Launch Control XL"/>
+		<device name="nanoKONTROL2 CTRL"/>
+	</outputDevices>
+	<controlSurfaces/>
+</midiController>
+

@@ -1,0 +1,7 @@
+<SimpleSetup advancedModeEnabled="0">
+	<Outputs>
+		<OutputDeviceSyphon name="Composition" deviceId="SyphonComposition" idHash="1149035810203756613" width="1280" height="720"/>
+		<OutputDeviceDisplay name="Display 1" deviceId="Display 1" idHash="747723244312493407" fullscreen="0" width="1280" height="720" screenX="53" screenY="318"/>
+	</Outputs>
+</SimpleSetup>
+

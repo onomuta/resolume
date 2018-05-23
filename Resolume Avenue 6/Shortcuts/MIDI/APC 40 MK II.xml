@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MidiShortcutPreset name="APC 40 MK II" presetId="-1958943128">
+	<versionInfo name="Resolume Avenue" majorVersion="6" minorVersion="0" microVersion="7" revision="60578"/>
+	<ShortcutManager name="MIDIShortcutManagerShortcuts">
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/12/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/12/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876784" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/13/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/13/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075877040" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/11/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/11/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876528" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/15/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/15/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075877552" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/10/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/10/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876272" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/14/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/14/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075877296" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/8/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/8/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075875760" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+		<Shortcut name="Shortcut" behaviour="8">
+			<ShortcutPath name="InputPath" path="/composition/layers/9/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/9/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="0" optionIndex="-1"/>
+			<ValueRange name="range" min="0" max="1"/>
+			<RawInputMessage name="RawInputMessage" key="144115188075876016" value="0" numSteps="128"/>
+			<namedValues/>
+		</Shortcut>
+	</ShortcutManager>
+</MidiShortcutPreset>
+
