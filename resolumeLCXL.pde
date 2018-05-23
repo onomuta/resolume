@@ -7,7 +7,7 @@ NetAddress myRemoteLocation;
 MidiBus myBus;
 
 void setup() {
-  size(400, 400);
+  //size(400, 400);
   frameRate(60);
   background(0);
   oscP5 = new OscP5(this, 12000);
@@ -30,34 +30,27 @@ void noteOn(int channel, int pitch, int velocity) {
   println("Channel:"+channel);
   println("Pitch:"+pitch);
   println("Velocity:"+velocity);
-  
-  
+
+
   // comp Effect
-  if (pitch == 1) {
-    oscSend(0, "/composition/video/effects/blow/bypassed");
-  }else if (pitch == 1) {
-    oscSend(0, "/composition/video/effects/strobe/bypassed");
-  }else if (pitch == 1) {
+  if (pitch == 108) {
     oscSend(0, "/composition/video/effects/strobe2/bypassed");
-  }else if (pitch == 1) {
+  } else if (pitch == 107) {
+    oscSend(0, "/composition/video/effects/blow/bypassed");
+  } else if (pitch == 106) {
     oscSend(0, "/composition/video/effects/twitcheffect/bypassed");
-  }else if (pitch == 1) {
-    oscSend(0, "/composition/video/effects/slide/bypassed");
-  }else if (pitch == 1) {
-    oscSend(0, "/composition/video/effects/slide2/bypassed");
-  }else if (pitch == 1) {
-    oscSend(0, "/composition/video/effects/videowall/bypassed");
-  }else if (pitch == 1) {
-    oscSend(0, "/composition/video/effects/mirrorquad/bypassed");
-  }
-  
-  
-  
- 
-  
-  //Comp hue rotate
-  
-  
+  } else if (pitch == 105) {
+    oscSend(0, "/composition/video/effects/strobe/bypassed");
+  } 
+  //if (pitch == 1) {
+  //  oscSend(0, "/composition/video/effects/slide/bypassed");
+  //} else if (pitch == 1) {
+  //  oscSend(0, "/composition/video/effects/slide2/bypassed");
+  //} else if (pitch == 1) {
+  //  oscSend(0, "/composition/video/effects/videowall/bypassed");
+  //} else if (pitch == 1) {
+  //  oscSend(0, "/composition/video/effects/mirrorquad/bypassed");
+  //}
 }
 
 void noteOff(int channel, int pitch, int velocity) {
@@ -68,6 +61,17 @@ void noteOff(int channel, int pitch, int velocity) {
   println("Channel:"+channel);
   println("Pitch:"+pitch);
   println("Velocity:"+velocity);
+
+  // comp Effect
+  if (pitch == 108) {
+    oscSend(1, "/composition/video/effects/strobe2/bypassed");
+  } else if (pitch == 107) {
+    oscSend(1, "/composition/video/effects/blow/bypassed");
+  } else if (pitch == 106) {
+    oscSend(1, "/composition/video/effects/twitcheffect/bypassed");
+  } else if (pitch == 105) {
+    oscSend(1, "/composition/video/effects/strobe/bypassed");
+  }
 }
 
 void controllerChange(int channel, int number, int value) {
@@ -78,7 +82,7 @@ void controllerChange(int channel, int number, int value) {
   println("Number:"+number);
   println("Value:"+value);
 
-//layerEffect  ///////////////////
+  //layerEffect  ///////////////////
   if (number == 49) {
     layerEffectCtrl(8, value);
   } else if (number == 50) {
@@ -87,11 +91,11 @@ void controllerChange(int channel, int number, int value) {
     layerEffectCtrl(10, value);
   } else if (number == 52) {
     layerEffectCtrl(11, value);
-  }else if (number == 53) {
+  } else if (number == 53) {
     layerEffectCtrl(12, value);
-  }else if (number == 54) {
+  } else if (number == 54) {
     layerEffectCtrl(13, value);
-  }else if (number == 55) {
+  } else if (number == 55) {
     layerEffectCtrl(14, value);
   }
 
@@ -108,10 +112,15 @@ void controllerChange(int channel, int number, int value) {
     colorize(value, 12);
   } else if (number == 18) {
     colorize(value, 13);
-  }else if (number == 19) {
+  } else if (number == 19) {
     colorize(value, 14);
   }
-  
+
+
+  //Comp hue rotate ////////////////
+  if (number == 20) {
+    compHueRotate(value);
+  }
 }
 
 void delay(int time) {
@@ -127,49 +136,47 @@ void oscSend(float val, String pass) {
 
 //レイヤーエフェクトのバイパス設定
 void layerEffectCtrl(int layer, int value) {
-  int[] d = new int[]{ 0, 0, 0 };
+  int[] d = new int[]{ 0, 0, 0, 0, 0 };
   float valf = value / 127.;
-  if (valf < 0.2) {
-    d = new int[]{ 1, 1, 1 };
-  } else if (valf < 0.4) {
-    d = new int[]{ 1, 0, 0 };
-  } else if (valf < 0.6) {     
-    d = new int[]{ 1, 1, 0 };
-  } else if (valf < 0.8) {     
-    d = new int[]{ 0, 1, 1 };
-  } else {
-    d = new int[]{ 0, 0, 0 };
+  if (valf < 0.125) {
+    d = new int[]{ 1, 1, 1, 1, 1 };
+  } else if (valf < 0.25) {
+    d = new int[]{ 1, 0, 1, 1, 1 };
+  } else if (valf < 0.325) {     
+    d = new int[]{ 0, 1, 1, 1, 1 };
+  } else if (valf < 0.5) {     
+    d = new int[]{ 1, 1, 1 , 1, 0};
+  } else if (valf < 0.625) {     
+    d = new int[]{ 0, 1, 1 , 0, 0};  
+  } else if (valf < 0.875) {     
+    d = new int[]{ 1, 0, 0 , 1, 0};
+  } else{     
+    d = new int[]{ 1, 1, 0, 0, 0};
   }
+  
   layerEffect(d, layer);
 }
 
 void colorize(int value, int layer) {
   float valf = value / 127.;
-  if(valf > 0.07){
+  if (valf > 0.07) {
     oscSend(valf, "/composition/layers/" + layer +"/video/effects/colorize/effect/color/palette/colors");
     oscSend(0, "/composition/layers/" + layer +"/video/effects/colorize/bypassed");
-  }else{
+  } else {
     oscSend(1, "/composition/layers/" + layer +"/video/effects/colorize/bypassed");
   }
-  println(valf);
 }
 
-void compHueRotate(int value, int layer) {
+void compHueRotate(int value) {
   float valf = value / 127.;
-  if(valf > 0.07){
-    //oscSend(valf, "/composition/video/effects/huerotate/effect/huescale");
-    oscSend(valf, "/composition/video/effects/huerotate/effect/huerotate");
-    //常時オンでいいかも
-    oscSend(0, "/composition/video/effects/huerotate/bypassed");
-  }else{
-    oscSend(1, "/composition/video/effects/huerotate/bypassed");
-  }
-  println(valf);
+  oscSend(valf, "/composition/video/effects/huerotate/effect/huerotate");
 }
 
 
 void layerEffect(int vals[], int layer) {
   oscSend(vals[0], "/composition/layers/" + layer +"/video/effects/tileeffect/bypassed");
-  oscSend(vals[1], "/composition/layers/" + layer +"/video/effects/videowall/bypassed");
-  oscSend(vals[2], "/composition/layers/" + layer +"/video/effects/mirrorquad/bypassed");
+  oscSend(vals[1], "/composition/layers/" + layer +"/video/effects/tileeffect2/bypassed");
+  oscSend(vals[2], "/composition/layers/" + layer +"/video/effects/videowall/bypassed");
+  oscSend(vals[3], "/composition/layers/" + layer +"/video/effects/videowall2/bypassed");
+  oscSend(vals[4], "/composition/layers/" + layer +"/video/effects/mirrorquad/bypassed");
 }
