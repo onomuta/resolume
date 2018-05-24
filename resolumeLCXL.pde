@@ -15,8 +15,8 @@ void setup() {
   myRemoteLocation = new NetAddress("127.0.0.1", 7000);
 
   MidiBus.list(); 
-  myBus = new MidiBus(this, "Launch Control XL", "Launch Control XL");
-  //myBus = new MidiBus(this, 0, -1);
+  //myBus = new MidiBus(this, "Launch Control XL", "Launch Control XL");
+  myBus = new MidiBus(this, 0, -1);
 }
 
 void draw() {
@@ -121,6 +121,11 @@ void controllerChange(int channel, int number, int value) {
   if (number == 20) {
     compHueRotate(value);
   }
+  
+
+  //layer opacity //////////////////
+  //   /composition/layers/8/video/opacity
+
 }
 
 void delay(int time) {
