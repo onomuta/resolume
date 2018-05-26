@@ -77,6 +77,14 @@ void noteOn(int channel, int pitch, int velocity) {
   if (pitch == 41) {
   } else if (pitch == 42) {
   }
+  
+  
+  if (pitch == 73) {
+    oscSend(1, "/composition/layers/9/select");
+  } else if (pitch == 74) {
+    oscSend(1, "/composition/layers/10/select");
+  }
+  
   //41,42,43,44,57,58,59,60
   //73,74,75,76,89,90,91,92
 }
